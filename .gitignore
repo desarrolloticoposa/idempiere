@@ -1,5 +1,4 @@
-**/target/
-**/bin/
+*/target/
 **/lib/*.jar
 **/seed/*.jar
 /org.adempiere.ui.zk/labelapplet.jar
@@ -10,7 +9,6 @@
 /Oracle/
 /log/
 /*.log
-/.idpass
 /idempiere.properties
 /idempiereEnv.properties
 /hazelcast.xml
@@ -26,8 +24,6 @@ External Plug-in Libraries
 /jettyhome/
 
 /org.idempiere.javadoc/API
-/.sonarlint/
-**/org.sonarlint.eclipse.core.prefs
-/runtime-*.app/
-org.idempiere.maven.to.p2/org.idempiere.webservice.client/.settings/
-**/org.eclipse.jdt.core.prefs
+
+/fitnesse/fitnesse.jar
+/fitnesse/FitNesseRoot/FitLibraryWeb/*.zip
